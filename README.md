@@ -8,7 +8,7 @@ npm i globe.gl
 ```
 Ticket Master API documentation:
 ```
-[url](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+https://developer.ticketmaster.com/products-and-docs/apis/getting-started/
 ```
 Technologies used: 
 ```
