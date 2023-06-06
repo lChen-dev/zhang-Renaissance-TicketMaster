@@ -5,9 +5,10 @@ import { useEffect,useState } from 'react';
 import BarLoader from 'react-spinners/BarLoader'
 import TICKET_MASTER_API_KEY from './secrets';
 
-const apiLink = `https://app.ticketmaster.com/discovery/v2/events.json?attractionId=K8vZ9175rX7&size=100&apikey=${TICKET_MASTER_API_KEY}`
+const apiLink = `https://app.ticketmaster.com/discovery/v2/events.json?attractionId=K8vZ9175rX7&size=100&apikey=${process.env.REACT_APP_API_KEY}`
 
 function App() {
+  console.log(process.env)
 const [loading,setLoading] = useState(true);
 const [locationsObject,setLocations] = useState({
   page: {number:0,size:0,totalElements:0,totalPages:0},

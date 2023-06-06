@@ -21,9 +21,9 @@ const getTooltip = d => `
 <div>(${d.country})</div><div>(${d.city})</div>
 </div>
 `;
-const myImageUrl = 'https://raw.githubusercontent.com/Rchrdlss3/Renaissance-Globe/main/Globe/media/discoglobe2.png'
+const myImageUrl = 'https://raw.githubusercontent.com/Rchrdlss3/Renaissance-TicketMaster/main/media/discoglobe2.png'
 const myGlobe = Globe()
-console.log(myGlobe.labelLabel)
+
 myGlobe(myDomElement)
     .globeImageUrl(myImageUrl)
     .pointsData(bData)
